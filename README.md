@@ -6,7 +6,7 @@ Jedná se o script, který po spuštění:
 
   
 ## Návod
-  - Otevře (Google Scripts)[https://script.google.com/home]
+  - Otevře [Google Scripts](https://script.google.com/home)
   - Vytvořte nový projekt a obsah soubory "Kód.gs" nahraďte kódem níže
   - Na prvním řádku vložte do uvozovek mail, kam se má posílat upozornění
   - Vytvořte spouštěč (v levém menu časomíra)
