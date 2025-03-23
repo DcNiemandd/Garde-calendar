@@ -1,4 +1,4 @@
-# Automactiké synchronizování Garde
+# Automatické synchronizování Garde
 
 Jedná se o script, který po spuštění:
 - Najde google kalendář GARDE a případně jej vytvoří
