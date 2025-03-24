@@ -124,7 +124,7 @@ function main() {
     if (isNew) newEvents.push(r);
   });
     
-  // if (newEvents.length === 0) return;
+  if (newEvents.length === 0) return;
   
   const mailBody = newEvents.reverse().reduce((body,r,i)=>{
     return body + `<h2 style="font-size: 2rem;display:block;margin-top: 8px; margin-bottom: 8px; width: 30%;min-width: fit-content; padding-bottom: 8px; border-bottom: 1px solid WhiteSmoke;">${new Date(r.date).toLocaleDateString('cs-CZ')}</h2><p><strong>Město:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${r.place}<br /><strong>M&iacute;sto:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${r.building}<br /><strong>Akce:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${r.action}<br /><strong>Pozn&aacute;mka:</strong> ${r.note}</p>`;
