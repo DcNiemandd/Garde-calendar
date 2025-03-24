@@ -9,6 +9,7 @@ Jedná se o script, který po spuštění:
   - Otevře [Google Scripts](https://script.google.com/home)
   - Vytvořte nový projekt a obsah soubory "Kód.gs" nahraďte kódem níže
   - Na prvním řádku vložte do uvozovek mail, kam se má posílat upozornění
+  - V levo přidejte služby `Calendar` a `GMail`
   - Vytvořte spouštěč (v levém menu časomíra)
       - Funkce ke spuštění - main
       - Nastavte si jak často, doporučuji "Počítadlo hodin" a nějaký čas v noci
